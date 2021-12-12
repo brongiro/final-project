@@ -1,10 +1,10 @@
 body {
-  max-width: 800px;
-	margin: 20px auto;
+	margin: 4em;
+  font-family: 'Public Sans', sans-serif;
 }
 
 img{
-  max-width: 800px;
+  max-width: 100%;
 	margin: 5px auto;
 }
 
@@ -13,6 +13,37 @@ img{
 }
 
 .headline{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Public Sans', sans-serif;
   font-size: 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  padding: 2em;
+  margin: 2em 0;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  width: 100%;
+  width: calc(100% / 3 - 4em);
+  padding: 2em;
+}
+
+@media only screen and (min-width: 1200px) {
+  article {
+    margin: -2em;
+  }
+
+  section {
+    width: calc(100% / 3 - 4em);
+    padding: 2em;
+    float: left;
+  }
 }
