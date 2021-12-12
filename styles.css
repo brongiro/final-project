@@ -17,8 +17,23 @@ img{
   font-size: 25px;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  padding: 2em;
+  margin: 2em 0;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+}
+
 section {
   width: 100%;
+  width: calc(100% / 3 - 4em);
+  padding: 2em;
 }
 
 @media only screen and (min-width: 1200px) {
