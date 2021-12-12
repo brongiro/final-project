@@ -1,10 +1,9 @@
 body {
-  max-width: 800px;
-	margin: 20px auto;
+	margin: 4em;
 }
 
 img{
-  max-width: 800px;
+  max-width: 100%;
 	margin: 5px auto;
 }
 
@@ -15,4 +14,20 @@ img{
 .headline{
   font-family: 'Playfair Display', serif;
   font-size: 25px;
+}
+
+section {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  article {
+    margin: -2em;
+  }
+
+  section {
+    width: calc(100% / 3 - 4em);
+    padding: 2em;
+    float: left;
+  }
 }
