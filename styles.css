@@ -25,24 +25,20 @@ footer {
   margin: 2em 0;
 }
 
-article {
-  display: flex;
-  flex-direction: row;
-}
-
 section {
   width: 100%;
-  width: calc(100% / 3 - 4em);
   padding: 2em;
 }
 
 @media only screen and (min-width: 1200px) {
   article {
     margin: -2em;
+    flex-direction: row;
+    display: flex;
   }
 
   section {
-    width: calc(100% / 3 - 4em);
+    flex: 1 0 calc(100% / 3 - 4em);
     padding: 2em;
     float: left;
   }
