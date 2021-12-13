@@ -5,10 +5,10 @@ body {
 }
 
 .header{
-  padding: 25px;
+  padding: .125px;
   background: #18a1cd;
   color: White;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 h5{
