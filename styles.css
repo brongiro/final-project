@@ -4,21 +4,53 @@ body {
   font-family: 'Public Sans', sans-serif;
 }
 
+.header{
+  padding: 25px;
+  background: #18a1cd;
+  color: White;
+  font-size: 40px;
+}
+
+h5{
+  font-size: 15px;
+}
+
+h6{
+  font-size: 12px;
+}
+
 img{
   max-width: 800px;
 	margin: 5px auto;
 }
+
+.money{
+  border-left: 10px solid blue;
+  font-size: 60px;
+}
+
 .headline{
   font-family: 'Public Sans', sans-serif;
-  font-size: 25px;
+  font-size: 40px;
+}
+
+blockquote{
+  border-left: 10px solid blue;
+  padding-left: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  background-color: #bfc4e0;
+  font-size: 20px;
 }
 
 footer {
   display: flex;
   justify-content: center;
-  background-color: aqua;
+  background-color: #18a1cd;
   padding: 2em;
   margin: 2em 0;
+  color: white;
 }
 
 article {
@@ -30,3 +62,8 @@ article {
   article {
     margin: -2em;
   }
+
+.captions p{
+  font-size: 9px;
+  color: white;
+}
