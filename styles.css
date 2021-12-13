@@ -9,6 +9,7 @@ body {
   background: #18a1cd;
   color: White;
   font-size: 25px;
+  max-width: 800px;
 }
 
 h5{
@@ -51,6 +52,7 @@ footer {
   padding: 2em;
   margin: 2em 0;
   color: white;
+
 }
 
 article {
